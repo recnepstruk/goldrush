@@ -1,0 +1,53 @@
+.map {
+	width: 98vw;
+	height: 98vh;
+}
+
+.minerDude {
+	position: absolute;
+	height: 6vh; 
+	width: 3vw;
+	transform: translate(-50%, -50%);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.minerDude:hover
+{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.8);
+}
+@font-face{
+	font-family: ringbearer;
+    src: url(ringbearer.medium.ttf);
+}
+.b1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #4CAF50;
+    font-size: 15px;
+    font-family: ringbearer;
+}
+
+.b2 {
+	position: absolute;
+	top: 10px;
+	left: 175px;
+	background-color: #4CAF50;
+    font-size: 15px;
+    font-family: ringbearer;
+}
